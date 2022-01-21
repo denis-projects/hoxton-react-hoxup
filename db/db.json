@@ -1,0 +1,87 @@
+{
+  "users": [
+    {
+      "firstName": "Ed",
+      "lastName": "Putans",
+      "phoneNumber": "12341234",
+      "avatar": "https://avatars.dicebear.com/api/avataaars/EdPutans.svg",
+      "id": 1
+    },
+    {
+      "firstName": "Geri",
+      "lastName": "Cupi",
+      "phoneNumber": "123123123123",
+      "avatar": "https://avatars.dicebear.com/api/avataaars/GeriCupi.svg",
+      "id": 2
+    },
+    {
+      "firstName": "Luca",
+      "lastName": "Marcora",
+      "phoneNumber": "123123123",
+      "avatar": "https://avatars.dicebear.com/api/avataaars/LucaMarcora.svg",
+      "id": 3
+    },
+    {
+      "firstName": "Nicolas",
+      "lastName": "Marcora",
+      "phoneNumber": "+696969696969",
+      "avatar": "https://avatars.dicebear.com/api/avataaars/NicolasMarcora.svg",
+      "id": 4
+    }
+  ],
+  "messages": [
+    {
+      "userId": 1,
+      "messageText": "Hello! 👋",
+      "conversationId": 1,
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "messageText": "Yo! 👋",
+      "conversationId": 2,
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "messageText": "Sup?! 🎉",
+      "conversationId": 2,
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "messageText": "How are you?",
+      "conversationId": 3,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "messageText": "All good, and you?",
+      "conversationId": 3,
+      "id": 5
+    },
+    {
+      "userId": 3,
+      "messageText": "Yeah, just chillin",
+      "conversationId": 3,
+      "id": 6
+    }
+  ],
+  "conversations": [
+    {
+      "userId": 1,
+      "participantId": 2,
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "participantId": 3,
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "participantId": 1,
+      "id": 3
+    }
+  ]
+}
